@@ -1,0 +1,1 @@
+angular.module('my-app', ['i18n'])

@@ -1,0 +1,17 @@
+<h1>i18n module for angularjs</h1>
+<p>
+	This module makes it easier to implement i18n within angularjs applications. It provides 1 filter and 1 directive.
+</p>
+<p>
+	You can use the filter like any other filter "{{elementBind | i18n}}" and the value will be internationalized, or you 			can use the 'i18n-find="[jQuery Selector]"' directive and let the directive apply the filter.<br/>
+	Just define a "translations" variable on window scope and let angular do the rest
+</p>
+
+<p>
+	Ex.:<br/>
+	<pre>
+		<ul i18n-find="li">
+			<li>text.to.internationalizate</li>
+		</ul>
+	</pre>
+</p>	
